@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  background-color: rgb(69, 201, 85);
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.titulo {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.linha {
+  border: 0.5px solid black;
+}
+
+.informacao {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.nomes {
+  margin-bottom: 12px;
+  margin-right: 7px;
+}
+
+.caixas {
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  margin-bottom: 6px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+.botao_calcular {
+  padding: 5px;
+  width: 75%;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(30, 29, 29);
+  color: rgb(24, 170, 41);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#resultado {
+  background-color: rgb(30, 29, 29);
+  color: rgb(24, 170, 41);
+  height: 100px;
+  width: 200px;
+  margin: auto;  
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 10px;
+}
